@@ -691,11 +691,13 @@ namespace TNBase
             // PictureBox1
             // 
             PictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
+            PictureBox1.Image = (Image)resources.GetObject("PictureBox1.Image");
             PictureBox1.InitialImage = (Image)resources.GetObject("PictureBox1.InitialImage");
-            PictureBox1.Location = new Point(422, 202);
+            PictureBox1.Location = new Point(370, 238);
             PictureBox1.Margin = new Padding(4, 3, 4, 3);
             PictureBox1.Name = "PictureBox1";
-            PictureBox1.Size = new Size(358, 302);
+            PictureBox1.Size = new Size(477, 275);
+            PictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             PictureBox1.TabIndex = 15;
             PictureBox1.TabStop = false;
             // 
